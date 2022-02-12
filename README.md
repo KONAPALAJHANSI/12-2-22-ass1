@@ -1,16 +1,16 @@
-soaps=100
+shoe=100
 chocolates=150
 biscuits=100
-essentials=200
-fruits=500
+shampoo=200
+beauty creams=500
 cno=int(input("enter customer number:"))
 cname=input("enter customer name:")
-s=int(input("no of soaps:"))
+sh=int(input("no of shoe:"))
 c=int(input("no of chocolates:"))
 b=int(input("no of biscuits:"))
-e=int(input("no of essentials:"))
-f=int(input("no of fruits:"))
-bill=(soaps*s)+(chocolates*c)+(biscuits*b)+(essentials*e)+(fruits*f)
+s=int(input("no of shampoo:"))
+bc=int(input("no of beauty creams:"))
+bill=(shoe*sh)+(chocolates*c)+(biscuits*b)+(shampoo*s)+(beauty creams*bc)
 print("your bill is:",bill)
 if(bill>5000):
     disc=bill*10/100
@@ -29,4 +29,4 @@ print("your discount is:",disc)
 print("your tax is:",tax)
 finalbill=bill-disc+tax
 print("your final bill is:",finalbill)
-print("thank you for shopping\n **visit again**")
+print("thank you for shopping***")
